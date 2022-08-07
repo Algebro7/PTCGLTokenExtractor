@@ -8,7 +8,7 @@ by exporting your credentials from a Windows machine to the Wine prefix so you c
 
 ```
 WINEARCH=win64 WINEPREFIX=~/prefixes/ptcgl winecfg
-``
+```
 
 2. If using wine-staging, navigate to `Staging` tab and disable CSMT
 3. Install VC runtime with `winetricks:
