@@ -28,7 +28,7 @@ WINEARCH=win64 WINEPREFIX=~/prefixes/ptcgl wine PokemonTCGLiveInstaller.msi
 7. Click Start, type regedit, navigate to HKEY_CURRENT_USER->Software->pokemon->Pokemon TCG Live
 8. Right click Pokemon TCG Live and click Export, copy the .reg file to the Linux machine:
 
-[regkey_export.png]
+![Reg Key](regkey_export.png)
 
 9. Download `Cred.exe` from the releases page or compile it with Visual Studio and run `Cred.exe read` from the Windows command line
 10. Copy the token shown, as well as the `Cred.exe` file to the Linux machine
