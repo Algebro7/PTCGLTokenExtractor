@@ -33,5 +33,5 @@ WINEARCH=win64 WINEPREFIX=~/prefixes/ptcgl wine PokemonTCGLiveInstaller.msi
 9. Download `Cred.exe` from the releases page or compile it with Visual Studio and run `Cred.exe read` from the Windows command line
 10. Copy the token shown, as well as the `Cred.exe` file to the Linux machine
 11. Run `WINEARCH=win64 WINEPREFIX=~/prefixes/tcgl wine Cred.exe write <token>`
-12. Run `WINEARCH=win64 WINEPREFIX=~/prefixes/tcgl wine regedit /path/to/reg/file
+12. Run `WINEARCH=win64 WINEPREFIX=~/prefixes/tcgl wine regedit /path/to/reg/file`
 13. Launch PTCG Live on Linux
